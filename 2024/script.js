@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function spawnCircle() {
         const circle = document.createElement("img");
         circle.classList.add("circle");
-        circle.src = "water.png";
+        circle.src = "water.PNG";
 
         const size = 30;
         const x = Math.random() * (container.offsetWidth - size);
